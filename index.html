@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="id">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Exam Maker - Admin & Candidate Portal</title>
+    <title>Pembuat Ujian - Portal Admin & Peserta</title>
 
     <!-- Bootstrap 5 CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
@@ -240,43 +240,43 @@
               <li class="nav-item">
                 <a class="nav-link" href="exam.html" data-page="exams">
                   <i class="bi bi-file-text me-2"></i>
-                  Exams
+                  Ujian
                 </a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="questions.html" data-page="questions">
                   <i class="bi bi-question-circle me-2"></i>
-                  Question Bank
+                  Bank Soal
                 </a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="participants.html" data-page="participants">
                   <i class="bi bi-people me-2"></i>
-                  Participants
+                  Peserta
                 </a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="proctoring.html" data-page="proctoring">
                   <i class="bi bi-camera-video me-2"></i>
-                  Proctoring
+                  Pengawas
                 </a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="reports.html" data-page="reports">
                   <i class="bi bi-graph-up me-2"></i>
-                  Reports
+                  Laporan
                 </a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="settings.html" data-page="settings">
                   <i class="bi bi-gear me-2"></i>
-                  Settings
+                  Pengaturan
                 </a>
               </li>
               <li class="nav-item mt-4">
                 <a class="nav-link" href="candidate.html" data-page="candidate">
                   <i class="bi bi-person-check me-2"></i>
-                  Candidate View
+                  Tampilan Peserta
                 </a>
               </li>
             </ul>
@@ -295,24 +295,24 @@
               <div class="btn-group me-2">
                 <button type="button" class="btn btn-sm btn-outline-secondary">
                   <i class="bi bi-download me-1"></i>
-                  Export
+                  Ekspor
                 </button>
               </div>
               <div class="dropdown">
                 <button class="btn btn-sm btn-outline-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown">
                   <i class="bi bi-person-circle me-1"></i>
-                  Admin User
+                  Admin
                 </button>
                 <ul class="dropdown-menu">
                   <li>
-                    <a class="dropdown-item" href="#"><i class="bi bi-person me-2"></i>Profile</a>
+                    <a class="dropdown-item" href="#"><i class="bi bi-person me-2"></i>Profil</a>
                   </li>
                   <li>
-                    <a class="dropdown-item" href="#"><i class="bi bi-gear me-2"></i>Settings</a>
+                    <a class="dropdown-item" href="#"><i class="bi bi-gear me-2"></i>Pengaturan</a>
                   </li>
                   <li><hr class="dropdown-divider" /></li>
                   <li>
-                    <a class="dropdown-item" href="#"><i class="bi bi-box-arrow-right me-2"></i>Logout</a>
+                    <a class="dropdown-item" href="#"><i class="bi bi-box-arrow-right me-2"></i>Keluar</a>
                   </li>
                 </ul>
               </div>
@@ -330,7 +330,7 @@
                     <div class="card-body">
                       <div class="row no-gutters align-items-center">
                         <div class="col mr-2">
-                          <div class="text-xs font-weight-bold text-uppercase mb-1">Total Exams</div>
+                          <div class="text-xs font-weight-bold text-uppercase mb-1">Total Ujian</div>
                           <div class="h5 mb-0 font-weight-bold">24</div>
                         </div>
                         <div class="col-auto">
@@ -346,7 +346,7 @@
                     <div class="card-body">
                       <div class="row no-gutters align-items-center">
                         <div class="col mr-2">
-                          <div class="text-xs font-weight-bold text-uppercase mb-1">Participants</div>
+                          <div class="text-xs font-weight-bold text-uppercase mb-1">Peserta</div>
                           <div class="h5 mb-0 font-weight-bold">1,234</div>
                         </div>
                         <div class="col-auto">
@@ -362,7 +362,7 @@
                     <div class="card-body">
                       <div class="row no-gutters align-items-center">
                         <div class="col mr-2">
-                          <div class="text-xs font-weight-bold text-uppercase mb-1">Active Tests</div>
+                          <div class="text-xs font-weight-bold text-uppercase mb-1">Ujian Aktif</div>
                           <div class="h5 mb-0 font-weight-bold">8</div>
                         </div>
                         <div class="col-auto">
@@ -378,7 +378,7 @@
                     <div class="card-body">
                       <div class="row no-gutters align-items-center">
                         <div class="col mr-2">
-                          <div class="text-xs font-weight-bold text-uppercase mb-1">Avg Score</div>
+                          <div class="text-xs font-weight-bold text-uppercase mb-1">Nilai Rata-rata</div>
                           <div class="h5 mb-0 font-weight-bold">78.5%</div>
                         </div>
                         <div class="col-auto">
@@ -395,7 +395,7 @@
                 <div class="card-header">
                   <h5 class="card-title mb-0">
                     <i class="bi bi-clock-history me-2"></i>
-                    Recent Exams
+                    Ujian Terbaru
                   </h5>
                 </div>
                 <div class="card-body">
@@ -403,12 +403,12 @@
                     <table class="table table-hover">
                       <thead>
                         <tr>
-                          <th>Exam Name</th>
-                          <th>Participants</th>
-                          <th>Duration</th>
+                          <th>Nama Ujian</th>
+                          <th>Peserta</th>
+                          <th>Durasi</th>
                           <th>Status</th>
-                          <th>Created</th>
-                          <th>Actions</th>
+                          <th>Dibuat</th>
+                          <th>Aksi</th>
                         </tr>
                       </thead>
                       <tbody>
@@ -417,7 +417,7 @@
                             <div class="d-flex align-items-center">
                               <i class="bi bi-file-text me-2 text-primary"></i>
                               <div>
-                                <div class="fw-bold">Mathematics Final Exam</div>
+                                <div class="fw-bold">Ujian Akhir Matematika</div>
                                 <small class="text-muted">MATH-101</small>
                               </div>
                             </div>
@@ -426,16 +426,16 @@
                             <span class="badge bg-info">45/50</span>
                           </td>
                           <td>120 min</td>
-                          <td><span class="badge bg-success">Active</span></td>
-                          <td>2 hours ago</td>
+                          <td><span class="badge bg-success">Aktif</span></td>
+                          <td>2 jam yang lalu</td>
                           <td>
-                            <button class="btn btn-sm btn-outline-primary me-1" title="Monitor">
+                            <button class="btn btn-sm btn-outline-primary me-1" title="Pantau">
                               <i class="bi bi-eye"></i>
                             </button>
                             <button class="btn btn-sm btn-outline-secondary me-1" title="Edit">
                               <i class="bi bi-pencil"></i>
                             </button>
-                            <button class="btn btn-sm btn-outline-danger" title="Stop">
+                            <button class="btn btn-sm btn-outline-danger" title="Hentikan">
                               <i class="bi bi-stop-circle"></i>
                             </button>
                           </td>
@@ -445,7 +445,7 @@
                             <div class="d-flex align-items-center">
                               <i class="bi bi-file-text me-2 text-primary"></i>
                               <div>
-                                <div class="fw-bold">Physics Quiz</div>
+                                <div class="fw-bold">Kuis Fisika</div>
                                 <small class="text-muted">PHYS-201</small>
                               </div>
                             </div>
@@ -454,16 +454,16 @@
                             <span class="badge bg-warning">12/30</span>
                           </td>
                           <td>60 min</td>
-                          <td><span class="badge bg-warning">In Progress</span></td>
-                          <td>1 day ago</td>
+                          <td><span class="badge bg-warning">Sedang Berlangsung</span></td>
+                          <td>1 hari yang lalu</td>
                           <td>
-                            <button class="btn btn-sm btn-outline-primary me-1" title="Monitor">
+                            <button class="btn btn-sm btn-outline-primary me-1" title="Pantau">
                               <i class="bi bi-eye"></i>
                             </button>
                             <button class="btn btn-sm btn-outline-secondary me-1" title="Edit">
                               <i class="bi bi-pencil"></i>
                             </button>
-                            <button class="btn btn-sm btn-outline-danger" title="Stop">
+                            <button class="btn btn-sm btn-outline-danger" title="Hentikan">
                               <i class="bi bi-stop-circle"></i>
                             </button>
                           </td>
@@ -473,7 +473,7 @@
                             <div class="d-flex align-items-center">
                               <i class="bi bi-file-text me-2 text-primary"></i>
                               <div>
-                                <div class="fw-bold">Chemistry Test</div>
+                                <div class="fw-bold">Ujian Kimia</div>
                                 <small class="text-muted">CHEM-301</small>
                               </div>
                             </div>
@@ -482,16 +482,16 @@
                             <span class="badge bg-success">25/25</span>
                           </td>
                           <td>90 min</td>
-                          <td><span class="badge bg-secondary">Completed</span></td>
-                          <td>3 days ago</td>
+                          <td><span class="badge bg-secondary">Selesai</span></td>
+                          <td>3 hari yang lalu</td>
                           <td>
-                            <button class="btn btn-sm btn-outline-primary me-1" title="View Results">
+                            <button class="btn btn-sm btn-outline-primary me-1" title="Lihat Hasil">
                               <i class="bi bi-bar-chart"></i>
                             </button>
                             <button class="btn btn-sm btn-outline-secondary me-1" title="Edit">
                               <i class="bi bi-pencil"></i>
                             </button>
-                            <button class="btn btn-sm btn-outline-success" title="Republish">
+                            <button class="btn btn-sm btn-outline-success" title="Terbitkan Ulang">
                               <i class="bi bi-arrow-clockwise"></i>
                             </button>
                           </td>
@@ -508,9 +508,9 @@
             <!-- Exams Page -->
             <div id="examsPage" class="page-content" style="display: none">
               <div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3">
-                <h2>Exams Management</h2>
+                <h2>Manajemen Ujian</h2>
                 <div class="btn-toolbar mb-2 mb-md-0">
-                  <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#createExamModal"><i class="bi bi-plus-circle me-2"></i>Create New Exam</button>
+                  <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#createExamModal"><i class="bi bi-plus-circle me-2"></i>Buat Ujian Baru</button>
                 </div>
               </div>
 
@@ -519,25 +519,25 @@
                 <div class="col-md-6">
                   <div class="input-group">
                     <span class="input-group-text"><i class="bi bi-search"></i></span>
-                    <input type="text" class="form-control" placeholder="Search exams..." id="examSearch" />
+                    <input type="text" class="form-control" placeholder="Cari ujian..." id="examSearch" />
                   </div>
                 </div>
                 <div class="col-md-3">
                   <select class="form-select" id="statusFilter">
-                    <option value="">All Status</option>
+                    <option value="">Semua Status</option>
                     <option value="draft">Draft</option>
-                    <option value="published">Published</option>
-                    <option value="active">Active</option>
-                    <option value="completed">Completed</option>
+                    <option value="published">Diterbitkan</option>
+                    <option value="active">Aktif</option>
+                    <option value="completed">Selesai</option>
                   </select>
                 </div>
                 <div class="col-md-3">
                   <select class="form-select" id="topicFilter">
-                    <option value="">All Topics</option>
-                    <option value="mathematics">Mathematics</option>
-                    <option value="physics">Physics</option>
-                    <option value="chemistry">Chemistry</option>
-                    <option value="biology">Biology</option>
+                    <option value="">Semua Topik</option>
+                    <option value="mathematics">Matematika</option>
+                    <option value="physics">Fisika</option>
+                    <option value="chemistry">Kimia</option>
+                    <option value="biology">Biologi</option>
                   </select>
                 </div>
               </div>
@@ -551,9 +551,9 @@
             <!-- Questions Page -->
             <div id="questionsPage" class="page-content" style="display: none">
               <div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3">
-                <h2>Question Bank</h2>
+                <h2>Bank Soal</h2>
                 <div class="btn-toolbar mb-2 mb-md-0">
-                  <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#addQuestionModal"><i class="bi bi-plus-circle me-2"></i>Add Question</button>
+                  <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#addQuestionModal"><i class="bi bi-plus-circle me-2"></i>Tambah Soal</button>
                 </div>
               </div>
 
@@ -562,36 +562,36 @@
                 <div class="col-md-4">
                   <div class="input-group">
                     <span class="input-group-text"><i class="bi bi-search"></i></span>
-                    <input type="text" class="form-control" placeholder="Search questions..." id="questionSearch" />
+                    <input type="text" class="form-control" placeholder="Cari soal..." id="questionSearch" />
                   </div>
                 </div>
                 <div class="col-md-2">
                   <select class="form-select" id="typeFilter">
-                    <option value="">All Types</option>
-                    <option value="MCQ">Multiple Choice</option>
-                    <option value="TrueFalse">True/False</option>
-                    <option value="FillBlank">Fill in the Blank</option>
+                    <option value="">Semua Tipe</option>
+                    <option value="MCQ">Pilihan Ganda</option>
+                    <option value="TrueFalse">Benar/Salah</option>
+                    <option value="FillBlank">Isian</option>
                   </select>
                 </div>
                 <div class="col-md-2">
                   <select class="form-select" id="difficultyFilter">
-                    <option value="">All Difficulties</option>
-                    <option value="Easy">Easy</option>
-                    <option value="Medium">Medium</option>
-                    <option value="Hard">Hard</option>
+                    <option value="">Semua Tingkat</option>
+                    <option value="Easy">Mudah</option>
+                    <option value="Medium">Sedang</option>
+                    <option value="Hard">Sulit</option>
                   </select>
                 </div>
                 <div class="col-md-2">
                   <select class="form-select" id="topicFilterQuestions">
-                    <option value="">All Topics</option>
-                    <option value="mathematics">Mathematics</option>
-                    <option value="physics">Physics</option>
-                    <option value="chemistry">Chemistry</option>
-                    <option value="biology">Biology</option>
+                    <option value="">Semua Topik</option>
+                    <option value="mathematics">Matematika</option>
+                    <option value="physics">Fisika</option>
+                    <option value="chemistry">Kimia</option>
+                    <option value="biology">Biologi</option>
                   </select>
                 </div>
                 <div class="col-md-2">
-                  <button class="btn btn-outline-secondary w-100" id="clearFilters"><i class="bi bi-x-circle me-1"></i>Clear</button>
+                  <button class="btn btn-outline-secondary w-100" id="clearFilters"><i class="bi bi-x-circle me-1"></i>Hapus</button>
                 </div>
               </div>
 
@@ -661,8 +661,8 @@
                 </div>
                 <div class="col-md-3">
                   <select class="form-select" id="statusFilterParticipants">
-                    <option value="">All Status</option>
-                    <option value="active">Active</option>
+                    <option value="">Semua Status</option>
+                    <option value="active">Aktif</option>
                     <option value="inactive">Inactive</option>
                     <option value="suspended">Suspended</option>
                   </select>
@@ -1109,10 +1109,10 @@
                     <label for="examSubject" class="form-label">Subject *</label>
                     <select class="form-select" id="examSubject" required>
                       <option value="">Select Subject</option>
-                      <option value="mathematics">Mathematics</option>
-                      <option value="physics">Physics</option>
-                      <option value="chemistry">Chemistry</option>
-                      <option value="biology">Biology</option>
+                      <option value="mathematics">Matematika</option>
+                      <option value="physics">Fisika</option>
+                      <option value="chemistry">Kimia</option>
+                      <option value="biology">Biologi</option>
                     </select>
                   </div>
                 </div>
@@ -1241,9 +1241,9 @@
                 <div class="mb-3">
                   <label for="questionType" class="form-label">Question Type *</label>
                   <select class="form-select" id="questionType" required>
-                    <option value="MCQ">Multiple Choice</option>
-                    <option value="TrueFalse">True/False</option>
-                    <option value="FillBlank">Fill in the Blank</option>
+                    <option value="MCQ">Pilihan Ganda</option>
+                    <option value="TrueFalse">Benar/Salah</option>
+                    <option value="FillBlank">Isian</option>
                   </select>
                 </div>
               </div>
@@ -1251,9 +1251,9 @@
                 <div class="mb-3">
                   <label for="questionDifficulty" class="form-label">Difficulty</label>
                   <select class="form-select" id="questionDifficulty">
-                    <option value="Easy">Easy</option>
-                    <option value="Medium">Medium</option>
-                    <option value="Hard">Hard</option>
+                    <option value="Easy">Mudah</option>
+                    <option value="Medium">Sedang</option>
+                    <option value="Hard">Sulit</option>
                   </select>
                 </div>
               </div>

@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="id">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Settings - Exam Maker</title>
+    <title>Pengaturan - Pembuat Ujian</title>
 
     <!-- Bootstrap 5 CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
@@ -29,7 +29,7 @@
             <div class="text-center mb-4">
               <h4 class="text-white">
                 <i class="bi bi-mortarboard me-2"></i>
-                Exam Maker
+                Pembuat Ujian
               </h4>
             </div>
 
@@ -43,43 +43,43 @@
               <li class="nav-item">
                 <a class="nav-link" href="exam.html">
                   <i class="bi bi-file-text me-2"></i>
-                  Exams
+                  Ujian
                 </a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="questions.html">
                   <i class="bi bi-question-circle me-2"></i>
-                  Question Bank
+                  Bank Soal
                 </a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="participants.html">
                   <i class="bi bi-people me-2"></i>
-                  Participants
+                  Peserta
                 </a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="proctoring.html">
                   <i class="bi bi-camera-video me-2"></i>
-                  Proctoring
+                  Pengawas
                 </a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="reports.html">
                   <i class="bi bi-graph-up me-2"></i>
-                  Reports
+                  Laporan
                 </a>
               </li>
               <li class="nav-item">
                 <a class="nav-link active" href="settings.html">
                   <i class="bi bi-gear me-2"></i>
-                  Settings
+                  Pengaturan
                 </a>
               </li>
               <li class="nav-item mt-4">
                 <a class="nav-link" href="candidate.html">
                   <i class="bi bi-person-check me-2"></i>
-                  Candidate View
+                  Tampilan Peserta
                 </a>
               </li>
             </ul>
@@ -93,29 +93,29 @@
             <button class="btn btn-outline-secondary d-md-none" type="button" data-bs-toggle="collapse" data-bs-target="#sidebar">
               <i class="bi bi-list"></i>
             </button>
-            <h1 class="h2">System Settings</h1>
+            <h1 class="h2">Pengaturan Sistem</h1>
             <div class="btn-toolbar mb-2 mb-md-0">
               <div class="btn-group me-2">
                 <button type="button" class="btn btn-sm btn-outline-secondary">
                   <i class="bi bi-download me-1"></i>
-                  Export
+                  Ekspor
                 </button>
               </div>
               <div class="dropdown">
                 <button class="btn btn-sm btn-outline-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown">
                   <i class="bi bi-person-circle me-1"></i>
-                  Admin User
+                  Admin
                 </button>
                 <ul class="dropdown-menu">
                   <li>
-                    <a class="dropdown-item" href="#"><i class="bi bi-person me-2"></i>Profile</a>
+                    <a class="dropdown-item" href="#"><i class="bi bi-person me-2"></i>Profil</a>
                   </li>
                   <li>
-                    <a class="dropdown-item" href="#"><i class="bi bi-gear me-2"></i>Settings</a>
+                    <a class="dropdown-item" href="#"><i class="bi bi-gear me-2"></i>Pengaturan</a>
                   </li>
                   <li><hr class="dropdown-divider" /></li>
                   <li>
-                    <a class="dropdown-item" href="#"><i class="bi bi-box-arrow-right me-2"></i>Logout</a>
+                    <a class="dropdown-item" href="#"><i class="bi bi-box-arrow-right me-2"></i>Keluar</a>
                   </li>
                 </ul>
               </div>
@@ -124,32 +124,32 @@
 
           <!-- Settings Content -->
           <div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3">
-            <h2>System Settings</h2>
+            <h2>Pengaturan Sistem</h2>
           </div>
 
           <div class="row">
             <div class="col-md-6">
               <div class="card">
                 <div class="card-header">
-                  <h6>General Settings</h6>
+                  <h6>Pengaturan Umum</h6>
                 </div>
                 <div class="card-body">
                   <div class="mb-3">
-                    <label for="systemName" class="form-label">System Name</label>
-                    <input type="text" class="form-control" id="systemName" value="Exam Maker" />
+                    <label for="systemName" class="form-label">Nama Sistem</label>
+                    <input type="text" class="form-control" id="systemName" value="Pembuat Ujian" />
                   </div>
                   <div class="mb-3">
-                    <label for="timezone" class="form-label">Timezone</label>
+                    <label for="timezone" class="form-label">Zona Waktu</label>
                     <select class="form-select" id="timezone">
                       <option value="UTC">UTC</option>
-                      <option value="EST">Eastern Time</option>
-                      <option value="PST">Pacific Time</option>
+                      <option value="EST">Waktu Timur</option>
+                      <option value="PST">Waktu Pasifik</option>
                       <option value="GMT">GMT</option>
                     </select>
                   </div>
                   <div class="form-check mb-3">
                     <input class="form-check-input" type="checkbox" id="emailNotifications" checked />
-                    <label class="form-check-label" for="emailNotifications"> Enable Email Notifications </label>
+                    <label class="form-check-label" for="emailNotifications"> Aktifkan Notifikasi Email </label>
                   </div>
                 </div>
               </div>
@@ -157,19 +157,19 @@
             <div class="col-md-6">
               <div class="card">
                 <div class="card-header">
-                  <h6>Proctoring Settings</h6>
+                  <h6>Pengaturan Pengawas</h6>
                 </div>
                 <div class="card-body">
                   <div class="form-check mb-3">
                     <input class="form-check-input" type="checkbox" id="enableGlobalProctoring" />
-                    <label class="form-check-label" for="enableGlobalProctoring"> Enable Global Proctoring </label>
+                    <label class="form-check-label" for="enableGlobalProctoring"> Aktifkan Pengawas Global </label>
                   </div>
                   <div class="form-check mb-3">
                     <input class="form-check-input" type="checkbox" id="requireWebcamGlobal" />
-                    <label class="form-check-label" for="requireWebcamGlobal"> Require Webcam by Default </label>
+                    <label class="form-check-label" for="requireWebcamGlobal"> Wajib Webcam Secara Default </label>
                   </div>
                   <div class="mb-3">
-                    <label for="flagThreshold" class="form-label">Flag Threshold (seconds)</label>
+                    <label for="flagThreshold" class="form-label">Ambang Tanda (detik)</label>
                     <input type="number" class="form-control" id="flagThreshold" value="5" />
                   </div>
                 </div>
